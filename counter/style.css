@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+h1{
+    font-size: 64px;
+}
+button{
+    margin: 20px;
+    font-size: large;
+    padding: 10px;
+    background-color: rgb(206, 155, 89);
+    border-style: groove;
+}
+.main-container{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:cornsilk;
+    padding: 20px;
+    color: crimson;
+}
