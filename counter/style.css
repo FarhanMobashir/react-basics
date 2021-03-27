@@ -4,7 +4,7 @@ body{
 .main{
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 h1{
     font-size: 64px;
@@ -13,8 +13,13 @@ button{
     margin: 20px;
     font-size: large;
     padding: 10px;
-    background-color: rgb(206, 155, 89);
+    background-color:blueviolet;
     border-style: groove;
+    color: white;
+}
+.title {
+    font-size: 24px;
+    font-weight: 900
 }
 .main-container{
     border-radius: 5px;
@@ -24,5 +29,5 @@ button{
     text-align: center;
     background-color:cornsilk;
     padding: 20px;
-    color: crimson;
+    color: blueviolet;
 }
