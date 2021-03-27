@@ -3,15 +3,16 @@ class Winner extends React.Component {
         return (
             <div id="winner">
                 <h1 className='win'>You win {this.props.name} !</h1>
-                {/* <button onClick={this.restart}>Restart</button> */}
+                <button onClick={this.props.restart}>Restart</button>
             </div>
         )
 
     }
     restart() {
-        console.log(App.prototype.renderProblem())
+        console.log(App.renderProblem());
         return App.renderProblem;
     }
+
 
 }
 
@@ -39,7 +40,7 @@ class App extends React.Component {
     renderWin() {
         const name = 'the addition game';
         return (
-            <Winner name={name} />
+            <Winner name={name} restart={this.renderProblem} />
         )
     }
 
